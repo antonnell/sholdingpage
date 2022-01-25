@@ -1,0 +1,121 @@
+.container {
+  padding: 0;
+  color: #FFF;
+}
+
+.main {
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  padding: 0;
+  border-top: 1px solid rgba(126,152,176,0.2);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: rgba(0,0,0,0.06);
+  color: #7E99B0;
+  text-align: center;
+  font-size: 13px;
+}
+
+.footer a {
+  color: #7E99B0;
+}
+
+.footer a:hover {
+  color: #06D3D7;
+}
+
+.footerGrid {
+  max-width: 480px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 60px;
+  margin-bottom: 12px;
+}
+
+.vAlign {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon {
+  padding-top: 3px;
+  margin-right: 7px;
+  margin-bottom: -6px;
+}
+
+.title a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  text-decoration: underline;
+}
+
+.title {
+  letter-spacing: 3px;
+  margin: -80px 0 0 0;
+  /* text-transform: uppercase; */
+  font-size: 2.6rem;
+  color: #06D3D7;
+  font-weight: 700;
+  font-family: 'MonumentExt', 'Inter';
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.description {
+  margin: 25px 0 0 0;
+  line-height: normal;
+  font-size: 1.7rem;
+  font-weight: 200;
+  max-width: 800px;
+}
+
+.description span {
+  color: #7E99B0;
+}
+
+.logo {
+  transform: scale(8);
+  position: fixed;
+  top: 40px;
+}
+
+@media (max-width: 600px) {
+  .footerGrid {
+    max-width: 560px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 60px;
+    margin-bottom: 12px;
+    padding: 20px 0;
+  }
+
+  .title,
+  .description {
+    padding: 0 60px;
+    transform: scale(0.7);
+    margin: 0 !important;
+  }
+}
